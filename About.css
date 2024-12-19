@@ -1,0 +1,77 @@
+.about-container {
+    font-family: Arial, sans-serif;
+    padding: 40px;
+    text-align: center;
+    color: #2c3e50;
+  }
+  
+  .about-header {
+    background-color: #f4f4f9;
+    padding: 40px 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .about-header h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+    color: #34495e;
+  }
+  
+  .about-header p {
+    font-size: 18px;
+    line-height: 1.6;
+  }
+  
+  .mission, .team, .features {
+    margin-top: 40px;
+  }
+  
+  .mission h2, .team h2, .features h2 {
+    font-size: 28px;
+    color: #34495e;
+  }
+  
+  .mission p, .team p, .features ul {
+    font-size: 18px;
+    line-height: 1.6;
+  }
+  
+  .team-members {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .team-member {
+    background-color: #ecf0f1;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 200px;
+  }
+  
+  .team-member h3 {
+    font-size: 20px;
+    color: #6a11cb;
+  }
+  
+  .team-member p {
+    font-size: 16px;
+    color: #7f8c8d;
+  }
+  
+  .features ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: left;
+    margin: 20px auto;
+    max-width: 600px;
+  }
+  
+  .features li {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  

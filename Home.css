@@ -1,0 +1,165 @@
+/* Home Page Styles */
+.home-container {
+    
+    width: 1480px;
+   
+  }
+  
+  /* Hero Section */
+  .hero {
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+    border-radius: 10px;
+    margin-bottom: 40px;
+    animation: fadeIn 1s ease-in-out;
+  }
+  
+  .hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .hero p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+  }
+  
+  .hero-buttons .button {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out, transform 0.2s ease-in-out;
+  }
+  
+  .hero-buttons .primary {
+    background-color: #ff9800;
+    color: white;
+  }
+  
+  .hero-buttons .primary:hover {
+    background-color: #e57c00;
+    transform: scale(1.05);
+  }
+  
+  .hero-buttons .secondary {
+    background-color: white;
+    color: #2575fc;
+    border: 2px solid #2575fc;
+  }
+  
+  .hero-buttons .secondary:hover {
+    background-color: #f1f1f1;
+    transform: scale(1.05);
+  }
+  
+  /* Featured Section */
+  .featured {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .featured h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .card-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .card {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 300px;
+    text-align: center;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  }
+  
+  .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  .card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .card p {
+    font-size: 1rem;
+    margin-bottom: 15px;
+    color: #555;
+  }
+  
+  .card .button {
+    background-color: #2575fc;
+    color: white;
+  }
+  
+  .card .button:hover {
+    background-color: #1e5db1;
+    transform: scale(1.05);
+  }
+  
+  /* Call to Action */
+  .cta {
+    background: linear-gradient(to left, #f12711, #f5af19);
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+    border-radius: 10px;
+    margin-top: 40px;
+    animation: slideIn 1s ease-in-out;
+  }
+  
+  .cta h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  
+  .cta p {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+  }
+  
+  .cta .button {
+    padding: 12px 25px;
+    font-size: 1rem;
+    border-radius: 5px;
+    background-color: white;
+    color: #f12711;
+    font-weight: bold;
+  }
+  
+  .cta .button:hover {
+    background-color: #ffe6d5;
+    transform: scale(1.1);
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .hero h1 {
+      font-size: 2rem;
+    }
+  
+    .card-container {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .cta h2 {
+      font-size: 1.8rem;
+    }
+  }
+  
